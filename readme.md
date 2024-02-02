@@ -1,5 +1,5 @@
 # VPForce Joystick
-This is a remake of Mabo's FFB Joystick for 3D printing including several enhancments from protmakers version as well.
+This is a remake of Mabo's FFB Joystick for 3D printing including several enhancments from protomakers version as well.
 
 Changes from Mambo's design:
 * Gimbal is redsigned to minimize support material and optimze mating surfaces for fitment.
@@ -18,14 +18,14 @@ This is nearly zero original work from me.  All critical deminsions and ratios c
 
 * [walmis](https://github.com/walmis/FFB-Joystick-Base) - Electronics, firmware and original base design.
 * [mabo](https://github.com/mabo1972/FFB-Joystick-Base-Plywood) - Expanded base design including full gimbal.
-* [protmaker](https://github.com/protomaker964/Rhino-FFB-Clone-3D_Printed) - Modification for 3D printing and refinements
+* [protomaker](https://github.com/protomaker964/Rhino-FFB-Clone-3D_Printed) - Modification for 3D printing and refinements
 
 # Open Items
-* Converting the stick connector part to be two parts similar to the design used in the Rhino sold by walmis. An adpater that finshies the gimbal with mouting point for a metal tube or extrusion and
+* Converting the stick connector part to be two parts similar to the design used in the Rhino sold by walmis. An adpater that finshies the gimbal with mouting point for a metal tube or extrusion and a top mount with threads for stick.
 * No throw limiters (I don't use one so didn't add it).  Base has 22 degrees in all directions the same as the Rhino.
 * Boot clamp has not be tested yet.  Design changes may be necessary.
 * CAD Still has control board mount for under the gimbal, but there is not enough space to connect power wires in that location.
-* Stick connector is designed for thrustmater replacement parts, need to create version that will work for the [MD-50PL100](https://www.digikey.com/en/products/detail/cui-devices/MD-50PL100/500828).  Stick connector from protmaker and mabo should be compatible, but I have not tested.
+* Stick connector is designed for thrustmater replacement parts, need to create version that will work for the [MD-50PL100](https://www.digikey.com/en/products/detail/cui-devices/MD-50PL100/500828).  Stick connector from protomaker and mabo should be compatible, but I have not tested.
 * Optimize for screw types.  There are a few places where we could eliminate screw variations (ex: bearing retainers vs case screws).
 * Internal bearing retainer nuts are a pain especially once motors are install.  Switch them to some kind of captive nut.
 
