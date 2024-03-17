@@ -83,7 +83,7 @@ All hardware where possible has a McMaster Part # to help in getting specificati
 |   2 |           | M2.5 x 10 Flat Head Screw (Stock) | Power Connector Mount |
 |   2 |           | M3 x 6 Grub Screw | Motor Pulley Screw for 3D Printed Pulley |
 |   2 |           | [5M-12T-16W Pulley](https://www.amazon.com/dp/B07R49G8BK) | Motor Pulley - 3D printed version is optional as well |
-|   1 |           | 465mm long 5M-16W Belt | Pitch Belt |
+|   1 |           | 465mm long 5M-15W Belt | Pitch Belt |
 |   1 |           | 415mm long 5M-15W Belt | Roll Belt |
 |   1 |           | 5 Pin Mini Din Connector (Stock)| Stick connector - I used replacement parts from Thrustmaster for a Warthog stick that I bought a long time ago. |
 |   1 |           | [80mm Case Fan](https://www.amazon.com/dp/B00IOIJ4AC) | Parts designed to use standard PC fan screws which are included with this fan. |
