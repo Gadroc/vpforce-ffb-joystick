@@ -1,39 +1,39 @@
 # VPForce Joystick
-This is a remake of Mabo's FFB Joystick for 3D printing including several enhancments from protomakers version as well.
+This is a remake of Mabo's FFB Joystick for 3D printing, with several enhancements from the protomaker's version as well.
 
 Changes from Mambo's design:
-* Gimbal is redsigned to minimize support material and optimze mating surfaces for fitment.
+* The gimbal is redesigned to minimize support material and optimize mating surfaces for fitment.
 * 72 Tooth pulley used for 6:1 gear ratio
 * Shell adjusted for 3D printing
 
 Changes from Protomaker's design:
-* Heat set threaded inserts are used anywhere where a screw is used to fasten two printed parts.
+* Heat-set threaded inserts are used anywhere where a screw is used to fasten two printed parts.
 * Single pot similar to Rhino
 * No top panel cover
 * Fan grate incorporated into case
 * XT60 connector for power supply
 
 # Credits
-This is nearly zero original work from me.  All critical deminsions and ratios came from the original designers.  I just cleaned up some CAD work and injected some of my personal preferences for printing.  Original authors listed below:
+This design is nearly zero original work from me. All critical dimensions and ratios came from the original designers. I just cleaned up some CAD work and injected some of my preferences for 3D printing. Original authors are listed below:
 
-* [walmis](https://github.com/walmis/FFB-Joystick-Base) - Electronics, firmware and original base design.
-* [mabo](https://github.com/mabo1972/FFB-Joystick-Base-Plywood) - Expanded base design including full gimbal.
+* [walmis](https://github.com/walmis/FFB-Joystick-Base) - Electronics, firmware, and original base design.
+* [mabo](https://github.com/mabo1972/FFB-Joystick-Base-Plywood) - Expanded base design, including full gimbal.
 * [protomaker](https://github.com/protomaker964/Rhino-FFB-Clone-3D_Printed) - Modification for 3D printing and refinements
 
 # Open Items
-* Converting the stick connector part to be two parts similar to the design used in the Rhino sold by walmis. An adpater that finshies the gimbal with mouting point for a metal tube or extrusion and a top mount with threads for stick.
-* No throw limiters (I don't use one so didn't add it).  Base has 22 degrees in all directions the same as the Rhino.
-* Boot clamp has not be tested yet.  Design changes may be necessary.
-* CAD Still has control board mount for under the gimbal, but there is not enough space to connect power wires in that location.
-* Stick connector is designed for thrustmater replacement parts, need to create version that will work for the [MD-50PL100](https://www.digikey.com/en/products/detail/cui-devices/MD-50PL100/500828).  Stick connector from protomaker and mabo should be compatible, but I have not tested.
-* Optimize for screw types.  There are a few places where we could eliminate screw variations (ex: bearing retainers vs case screws).
-* Internal bearing retainer nuts are a pain especially once motors are install.  Switch them to some kind of captive nut.
+* I want to create a two-part stick adapter that uses metal tubing to allow people to select their own stick length. (Similar to the official VPRhino design by walmis)
+* No throw limiters (I don't use one so didn't add it). Base has 22 degrees in all directions the same as the Rhino.
+* Boot clamp has not been tested yet. Design changes may be necessary.
+* CAD Still has a control board mount for under the gimbal, but there is not enough space to connect power wires in that location.
+* Stick connector is designed for Thrustmaster replacement parts; I would like to create a version that will work for the [MD-50PL100](https://www.digikey.com/en/products/detail/cui-devices/MD-50PL100/500828). The stick connector from protomaker and mabo should be compatible, but I have not tested this.
+* Optimize for screw types. There are a few places where we could eliminate screw variations (ex: bearing retainers vs case screws).
+* Internal bearing retainer nuts are a pain, especially once motors are installed. Switch them to a captive nut.
 
 # CAD
 Both STEP and Fusion 360 files can be found in the CAD directory.
 
 # Printed Parts
-All STLs are in print orientation and should be able to be directly inserted and arranged in your slicer.  I printed all of my parts in polymaker PLA Pro with a .2mm layer height using voron part specs.  Adapt as necessary to your printer and filament.
+All STLs are in print orientation and should be able to be directly inserted and arranged in your slicer. I printed all my parts in polymaker PLA Pro with a .2mm layer height using voron part specs (4 walls and 45% grid infill). Adapt as necessary to your printer and filament.
 
 | File | Qty | Support | Description |
 |------|-----|---------|-------------|
@@ -53,13 +53,13 @@ All STLs are in print orientation and should be able to be directly inserted and
 | case_bottom | 1 | None | Bottom Case Plate |
 | pulley_gimbal | 1 | 72 Tooth Gimbal Pulley |
 | pulley_motor | None | 12 Tooth Motor Pulley (Optional if you don't want to buy metal pulley) |
-| jig_center_x2 | 2 | Centering Jig for intial assembly and calibration |
+| jig_center_x2 | 2 | Centering Jig for initial assembly and calibration |
 | boot_clamp_lower | 1 | Lower Boot Clamp |
 | boot_clamp_upper | 1 | Upper Boot Clamp |
 | boot_clamp_ring | 1 | Boot Clamp Ring for Stick Connector |
 
 # BOM
-All hardware where possible has a McMaster Part # to help in getting specifications correct. Parts I used are linked from the description when I didn't already have them in stock from old projects.
+Where possible, all hardware has a McMaster Part # to help indicate correct specifications. When I didn't already have the parts in stock from old projects, I linked my actual source for them in the description.
 
 | Qty | McMaster  | Name | Notes |
 |-----|-----------|------|-------|
