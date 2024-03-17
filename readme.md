@@ -51,7 +51,7 @@ All STLs are in print orientation and should be able to be directly inserted and
 | case_left | 1 | None | Left Case Plate (Pitch Bearing) |
 | case_top | 1 | None | Case Top Plate |
 | case_bottom | 1 | None | Bottom Case Plate |
-| pulley_gimbal | Build Plate Onley | 72 Tooth Gimbal Pulley |
+| pulley_gimbal | 1 | 72 Tooth Gimbal Pulley |
 | pulley_motor | None | 12 Tooth Motor Pulley (Optional if you don't want to buy metal pulley) |
 | jig_center_x2 | 2 | Centering Jig for intial assembly and calibration |
 | boot_clamp_lower | 1 | Lower Boot Clamp |
